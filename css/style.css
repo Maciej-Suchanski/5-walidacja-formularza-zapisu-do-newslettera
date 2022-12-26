@@ -1,0 +1,24 @@
+form{
+    padding: 30px;
+    background-color: rgb(140, 140, 140);
+    width: 200px;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: rgb(255, 165, 0);
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(238, 155, 0);
+}
+
+ul{
+    color: orange;
+}
