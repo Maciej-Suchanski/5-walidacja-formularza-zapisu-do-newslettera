@@ -1,4 +1,6 @@
 function validate(event) {
+    var list = document.getElementById('list');
+    list.innerHTML = '';
     let names = document.querySelector('[name="names"]');
     if (names.value.length == 0) {
         event.preventDefault();
